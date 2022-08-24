@@ -1,0 +1,21 @@
+{
+  "name": "@0x1461a0/sftp-publish",
+  "version": "0.0.0",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "publish": "./bin.js"
+  },
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "@types/node": "^18.0.1",
+    "@types/ssh2-sftp-client": "^7.0.1"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^9.0.1"
+  }
+}
